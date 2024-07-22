@@ -168,7 +168,7 @@ class AdvertisedActionHandler:
 
         # Uncommenting this, you may get a segfault.
         # See https://github.com/ros2/rclcpp/issues/2163#issuecomment-1850925883
-        # self.action_server.destroy()
+        self.action_server.destroy()
 
 
 class AdvertiseAction(Capability):
